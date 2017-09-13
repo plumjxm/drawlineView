@@ -15,6 +15,9 @@
 		381361E01F68E5B300A6C91D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381361DE1F68E5B300A6C91D /* LaunchScreen.storyboard */; };
 		381361EB1F68E5B400A6C91D /* drawlineViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381361EA1F68E5B400A6C91D /* drawlineViewTests.m */; };
 		381361F61F68E5B400A6C91D /* drawlineViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381361F51F68E5B400A6C91D /* drawlineViewUITests.m */; };
+		381362071F68E5D700A6C91D /* MPDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 381362041F68E5D700A6C91D /* MPDrawLineView.m */; };
+		381362081F68E5D700A6C91D /* MPDateWalkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 381362061F68E5D700A6C91D /* MPDateWalkModel.m */; };
+		3813620B1F68E76800A6C91D /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3813620A1F68E76800A6C91D /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		381361F11F68E5B400A6C91D /* drawlineViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawlineViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381361F51F68E5B400A6C91D /* drawlineViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawlineViewUITests.m; sourceTree = "<group>"; };
 		381361F71F68E5B400A6C91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381362031F68E5D700A6C91D /* MPDrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDrawLineView.h; sourceTree = "<group>"; };
+		381362041F68E5D700A6C91D /* MPDrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDrawLineView.m; sourceTree = "<group>"; };
+		381362051F68E5D700A6C91D /* MPDateWalkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDateWalkModel.h; sourceTree = "<group>"; };
+		381362061F68E5D700A6C91D /* MPDateWalkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDateWalkModel.m; sourceTree = "<group>"; };
+		381362091F68E76800A6C91D /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		3813620A1F68E76800A6C91D /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		381361CF1F68E5B300A6C91D /* drawlineView */ = {
 			isa = PBXGroup;
 			children = (
+				381362091F68E76800A6C91D /* UIViewExt.h */,
+				3813620A1F68E76800A6C91D /* UIViewExt.m */,
+				381362031F68E5D700A6C91D /* MPDrawLineView.h */,
+				381362041F68E5D700A6C91D /* MPDrawLineView.m */,
+				381362051F68E5D700A6C91D /* MPDateWalkModel.h */,
+				381362061F68E5D700A6C91D /* MPDateWalkModel.m */,
 				381361D31F68E5B300A6C91D /* AppDelegate.h */,
 				381361D41F68E5B300A6C91D /* AppDelegate.m */,
 				381361D61F68E5B300A6C91D /* ViewController.h */,
@@ -277,7 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				381361D81F68E5B300A6C91D /* ViewController.m in Sources */,
+				381362081F68E5D700A6C91D /* MPDateWalkModel.m in Sources */,
+				381362071F68E5D700A6C91D /* MPDrawLineView.m in Sources */,
 				381361D51F68E5B300A6C91D /* AppDelegate.m in Sources */,
+				3813620B1F68E76800A6C91D /* UIViewExt.m in Sources */,
 				381361D21F68E5B300A6C91D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
